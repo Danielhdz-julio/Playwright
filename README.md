@@ -1,8 +1,16 @@
-# QA Portfolio Evidence – Playwright
-
-Proyecto listo para usar como evidencia en entrevistas, CV o GitHub.  
-No es humo. Sí corre. Y sí se ve profesional.
-
+#  Playwright
+Incluye ejecución automatizada, cobertura funcional positiva y negativa, así como generación de evidencia mediante reportes y pipeline de integración continua.
+Qué se implementó
+Diseño de estrategia de pruebas (Smoke + Regression)
+Automatización de pruebas UI (flujo de login)
+Automatización de pruebas API (validación de endpoints REST)
+Implementación de Page Object Model (POM) para mantenibilidad
+Uso de fixtures personalizadas para reutilización de datos
+Configuración mediante variables de entorno (.env)
+Uso de hooks (beforeEach) para preparación de escenarios
+Etiquetado de pruebas (@smoke, @regression)
+Generación de reportes HTML como evidencia
+Integración con CI/CD (GitHub Actions)
 ## Stack
 - Playwright
 - JavaScript
