@@ -1,0 +1,18 @@
+{
+  "name": "qa-portfolio-evidence",
+  "version": "1.0.0",
+  "description": "Proyecto QA Automation para portafolio y evidencia profesional",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "dotenv": "^16.4.5"
+  }
+}

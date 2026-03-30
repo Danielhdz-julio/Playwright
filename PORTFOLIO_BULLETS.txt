@@ -1,0 +1,4 @@
+- Built a QA automation project using Playwright with UI and API test coverage.
+- Implemented Page Object Model, fixtures, reusable test data, and beforeEach hooks.
+- Validated positive and negative login scenarios plus REST API responses.
+- Added CI execution with GitHub Actions and generated HTML reports as execution evidence.

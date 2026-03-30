@@ -1,0 +1,9 @@
+1. Ejecuta npm install
+2. Ejecuta npx playwright install
+3. Corre npm test
+4. Abre el reporte con npm run report
+5. Toma screenshots del reporte y la terminal
+6. Súbelo a GitHub
+7. Pon el link en tu CV y LinkedIn
+
+Eso ya te da evidencia visible, rápida y defendible en entrevista.
